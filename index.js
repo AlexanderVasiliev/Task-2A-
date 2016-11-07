@@ -4,7 +4,7 @@ var app = express();
 
 function sumreq(query) {
 	var a = parseInt(query.a, 10);
-		var b = parseInt(query.b, 10);
+	var b = parseInt(query.b, 10);
 	if (a && b) {
 		return a + b;
 	} else if(a) {
